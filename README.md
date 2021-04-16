@@ -32,6 +32,18 @@ createdb iic2513template_dev
 ./node_modules/.bin/sequelize db:migrate
 ```
 
+### Run Seeds
+```sh
+yarn sequelize db:seed:all
+```
+
+### Run Seeds
+```sh
+yarn sequelize db:seed:all
+```
+
+### Remember to set environment variables
+
 ## Run the app!
 
 ```sh
